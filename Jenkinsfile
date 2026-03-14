@@ -13,7 +13,7 @@ pipeline{
         }
         stage('Test'){
             steps{
-                ech 'no test found'
+                echo 'no test found'
             }
         }
         stage('build'){
